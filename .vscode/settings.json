@@ -1,0 +1,12 @@
+{
+  // Use the project's uv virtualenv everywhere in this workspace
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+
+  // New terminals open in the project root
+  "terminal.integrated.cwd": "${workspaceFolder}",
+
+  // Let Ctrl+` (and other VS Code shortcuts) work while the terminal has focus.
+  // Your global settings send all keybindings to the shell, which swallows the toggle.
+  "terminal.integrated.sendKeybindingsToShell": false
+}
